@@ -1,4 +1,6 @@
 # 중첩 for
-for i in range(3):
-    for j in range(3):
-     print(f'i : {i}  j : {j}')
+for i in range(2,10):
+    for j in range(1,10):     
+     print(f'{i} x {j} = {i * j}')
+    print()   
+    
